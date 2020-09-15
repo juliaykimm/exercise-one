@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
+
+import ArticleListing from "./containers/ArticleListing";
 
 function App() {
   return (
     <div className="App">
-      <hi>test</hi>
+      <ArticleListing />
     </div>
   );
 }

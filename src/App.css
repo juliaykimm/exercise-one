@@ -1,3 +1,58 @@
 .App {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.App h1{
+    font-size: 70px;
+}
+
+.articleCard{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    padding: 25px 30px;
+}
+
+.articleCardImage{
+    flex-basis: 30%;
+    padding-right: 30px;
+}
+
+.articleCardImage img{
+    height: auto;
+    width: 100%;
+}
+
+.articleCardText{
+    flex-basis: 70%;
 
 }
+
+/* 
+Classes: .class
+HTML element: h1, h2, p, main....
+IDs: #id // NEVER USE THESE IS CSS !!!!
+
+EXAMPLE:
+<hi className = "cool-header" id = "header-one">Text</h1>
+.cool-header {}
+OR
+h1.cool-header{}
+
+DISPLAY VALUES:
+block
+inline
+inline-block
+none
+
+MORE ADVANCED DISPLAYS:
+flex
+grid
+
+CSS BOX MODEL:
+padding: inside of container (TOP RIGHT BOTTOM LEFT)
+margin: outside of container (TOP RIGHT BOTTOM LEFT)
+border: IS the container (lines up w container)
+*/

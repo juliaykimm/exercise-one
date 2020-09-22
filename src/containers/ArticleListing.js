@@ -7,7 +7,7 @@ import Data from "../components/data";
 function ArticleListing() {
   // props send data through the flow of components
   return (
-    <main>
+    <main className="ArticleListing">
       <header>
         <h1>Articles</h1>
       </header>
